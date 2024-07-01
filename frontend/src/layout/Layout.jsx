@@ -4,6 +4,7 @@ import {Box,ThemeProvider, CssBaseline, GlobalStyles } from '@mui/material';
 import { createTheme } from '@mui/material';
 
 import Header from '../components/navigate/Header';
+import Footer from '../components/navigate/Footer';
 
 const theme = createTheme({
     components: {
@@ -38,7 +39,7 @@ export default function Layout({children}) {
   return (
     <>
     <ThemeProvider theme={theme}>
-        
+
         {/* Using GlobalStyles component */}
         {/* <GlobalStyles
         styles={{
@@ -53,6 +54,7 @@ export default function Layout({children}) {
         <Box sx={{ marginTop: '64px', backgroundColor:'#1C2232' }}>
                 <Header />
                 {children}
+                <Footer />
         </Box>
     </ThemeProvider>
     </>
