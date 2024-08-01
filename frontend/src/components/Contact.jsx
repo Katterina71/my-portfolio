@@ -20,7 +20,7 @@ const Contact = () => {
           p: 4,
         }}
       >
-        <Typography variant="h4" gutterBottom>
+        <Typography variant="h4" gutterBottom sx={{mb:4}}>
           Connect with me
         </Typography>
         <Grid container spacing={4} sx={{ width: '100%' }}>

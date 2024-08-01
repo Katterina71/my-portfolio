@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 // Example project data
 const projects = [
   {
-    name: 'Demonstration equipment',
+    name: 'Celestial Canvas',
     description: 'A project demonstrating various equipment.',
     techIcons: [
       { icon: <i className="fab fa-react"></i>, label: 'React' },
@@ -16,15 +16,70 @@ const projects = [
     gifSrc: '/gifs/celectial.gif',
   },
   {
-    name: 'Production of outdoor advertising',
+    name: 'Fosters Connect',
     description: 'Project for outdoor advertising production.',
     techIcons: [
       { icon: <i className="fab fa-angular"></i>, label: 'Angular' },
       { icon: <i className="fab fa-python"></i>, label: 'Python' },
     ],
-    projectLink: 'https://example.com/outdoor-advertising',
-    githubLink: 'https://github.com/example/outdoor-advertising',
-    gifSrc: '/gifs/outdoor-advertising.gif',
+    projectLink: 'https://fosterconnect.onrender.com/',
+    githubLink: 'https://github.com/Katterina71/FosterConnect',
+    gifSrc: '/gifs/file.gif',
+  },
+  {
+    name: 'Marvel Characters App',
+    description: 'Project for outdoor advertising production.',
+    techIcons: [
+      { icon: <i className="fab fa-angular"></i>, label: 'Angular' },
+      { icon: <i className="fab fa-python"></i>, label: 'Python' },
+    ],
+    projectLink: 'https://main--marvel-characters-vault.netlify.app/',
+    githubLink: 'https://github.com/Katterina71/MarvelCharacterVault',
+    gifSrc: '/gifs/marvel-vault.gif',
+  },
+  {
+    name: 'Website Dune Universe',
+    description: 'Project for outdoor advertising production.',
+    techIcons: [
+      { icon: <i className="fab fa-angular"></i>, label: 'Angular' },
+      { icon: <i className="fab fa-python"></i>, label: 'Python' },
+    ],
+    projectLink: 'https://katterina71.github.io/Dune-Website/',
+    githubLink: 'https://github.com/Katterina71/Dune-Website',
+    gifSrc: '/gifs/file.gif',
+  },
+  {
+    name: 'Fitness Routine Planner',
+    description: 'Project for outdoor advertising production.',
+    techIcons: [
+      { icon: <i className="fab fa-angular"></i>, label: 'Angular' },
+      { icon: <i className="fab fa-python"></i>, label: 'Python' },
+    ],
+    projectLink: 'https://katterina71.github.io/Fitness/',
+    githubLink: 'https://github.com/Katterina71/Fitness',
+    gifSrc: '/gifs/fitness-example.gif',
+  },
+  {
+    name: 'Personal Finance Tracker',
+    description: 'Project for outdoor advertising production.',
+    techIcons: [
+      { icon: <i className="fab fa-angular"></i>, label: 'Angular' },
+      { icon: <i className="fab fa-python"></i>, label: 'Python' },
+    ],
+    projectLink: 'https://katterina71.github.io/Fitness/',
+    githubLink: 'https://github.com/Katterina71/Personal-Finance-Tracker',
+    gifSrc: '/gifs/file.gif',
+  },
+  {
+    name: 'Mystery Room Finder',
+    description: 'Project for outdoor advertising production.',
+    techIcons: [
+      { icon: <i className="fab fa-angular"></i>, label: 'Angular' },
+      { icon: <i className="fab fa-python"></i>, label: 'Python' },
+    ],
+    projectLink: 'https://katterina71.github.io/Fitness/',
+    githubLink: 'https://github.com/Katterina71/Mystery-Room-Finder',
+    gifSrc: '/gifs/file.gif',
   },
   // Add more projects as needed
 ];
