@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Card, CardContent, Typography, Button, Box, Grid, Chip } from '@mui/material';
+import { OpenInNew, GitHub } from '@mui/icons-material';
 
 const ProjectCard = ({ name, description, techIcons, projectLink, githubLink, gifSrc }) => {
   return (
@@ -20,10 +21,21 @@ const ProjectCard = ({ name, description, techIcons, projectLink, githubLink, gi
               ))}
             </Box>
             <Box>
-              <Button variant="contained" color="primary" href={projectLink} sx={{ mr: 2, backgroundColor: '#FF077E', '&:hover': { backgroundColor: '#37FFF0' } }}>
+              <Button
+                variant="contained"
+                color="primary"
+                href={projectLink}
+                sx={{ mr: 2, backgroundColor: '#FF077E', '&:hover': { backgroundColor: '#37FFF0' } }}
+                startIcon={<OpenInNew />}
+              >
                 View Project
               </Button>
-              <Button variant="outlined" sx={{ borderColor: '#FF077E', color: '#FF077E', '&:hover': { borderColor: '#37FFF0', color: '#37FFF0' } }}>
+              <Button
+                variant="outlined"
+                href={githubLink}
+                sx={{ borderColor: '#FF077E', color: '#FF077E', '&:hover': { borderColor: '#37FFF0', color: '#37FFF0' } }}
+                startIcon={<GitHub />}
+              >
                 View on GitHub
               </Button>
             </Box>

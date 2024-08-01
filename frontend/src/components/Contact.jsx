@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Typography, Box, TextField, Button, Grid, Link } from '@mui/material';
+import { Phone, MailOutline, Place } from '@mui/icons-material';
 
 const Contact = () => {
   return (
@@ -24,38 +25,46 @@ const Contact = () => {
         </Typography>
         <Grid container spacing={4} sx={{ width: '100%' }}>
           <Grid item xs={12} md={6}>
-            <Typography variant="body1" gutterBottom sx={{mb:4}}>
-            I will be happy to answer your questions regarding my work. Contact me by phone or send a form indicating your email.
-          Thank you for looking at my portfolio! 
+            <Typography variant="body1" gutterBottom sx={{ mb: 4 }}>
+              I will be happy to answer your questions regarding my work. Contact me by phone or send a form indicating your email.
+              Thank you for looking at my portfolio!
             </Typography>
-            <Link
-              href="tel:+16469720408"
-              variant="body1"
-              sx={{
-                display: 'block',
-                color: '#fff',
-                '&:hover': {
-                  color: '#1EFFF1',
-                },
-              }}
-              underline="hover"
-            >
-              +1(646)972-04-08
-            </Link>
-            <Link
-              href="mailto:beviatori@gmail.com"
-              variant="body1"
-              sx={{
-                display: 'block',
-                color: '#fff',
-                '&:hover': {
-                  color: '#1EFFF1',
-                },
-              }}
-              underline="hover"
-            >
-              beviatori@gmail.com
-            </Link>
+            <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+              <Place sx={{ mr: 1 }} />
+              <Typography variant="body1">Denver, CO</Typography>
+            </Box>
+            <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+              <Phone sx={{ mr: 1 }} />
+              <Link
+                href="tel:+16469720408"
+                variant="body1"
+                sx={{
+                  color: '#fff',
+                  '&:hover': {
+                    color: '#1EFFF1',
+                  },
+                }}
+                underline="hover"
+              >
+                +1(646)972-04-08
+              </Link>
+            </Box>
+            <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+              <MailOutline sx={{ mr: 1 }} />
+              <Link
+                href="mailto:beviatori@gmail.com"
+                variant="body1"
+                sx={{
+                  color: '#fff',
+                  '&:hover': {
+                    color: '#1EFFF1',
+                  },
+                }}
+                underline="hover"
+              >
+                beviatori@gmail.com
+              </Link>
+            </Box>
           </Grid>
           <Grid item xs={12} md={6}>
             <TextField
@@ -79,7 +88,7 @@ const Contact = () => {
                 },
               }}
             />
-                        <TextField
+            <TextField
               label="Your Company"
               variant="outlined"
               fullWidth
