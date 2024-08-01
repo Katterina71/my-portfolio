@@ -7,6 +7,11 @@ import Header from '../components/navigate/Header';
 import Footer from '../components/navigate/Footer';
 
 const theme = createTheme({
+  palette: {
+    text: {
+      primary: '#FFFFFF', // Set primary text color to white
+    },
+  },
     components: {
       MuiAppBar: {
             styleOverrides: {
