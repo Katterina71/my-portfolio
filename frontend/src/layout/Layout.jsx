@@ -19,7 +19,7 @@ const theme = createTheme({
         styleOverrides: {
           root: {
             backgroundColor: '#1C2232', // Custom background color for the Toolbar
-            borderBottom: '2px solid #FFFFF5', // Custom bottom border
+            borderBottom: '1px solid #606983', // Custom bottom border
             color: '#FFFFF5', // Custom text color
             fontSize: '1rem',
           },

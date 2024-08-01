@@ -17,18 +17,13 @@ function App() {
 
   return (
     <Box>
-    {/* // <Router>
-    //   <Routes>
-    //     <Route path="/" exact element={<Layout><Main/></Layout>}/> */}
-        <Layout><Hero/>
+     <Layout>
+        <Hero/>
         <About/>
         <Skills/>
         <Projects/>
         <Contact/>
-    
-        {/* </Routes>
-    </Router> */}
-    </Layout>
+     </Layout>
     </Box>
   )
 }

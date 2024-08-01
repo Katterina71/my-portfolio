@@ -17,10 +17,7 @@ export default function Header() {
   };
 
   const drawer = (
-    <Box  sx={{ width: 250, backgroundColor: '#1C2232', color: '#fff',  py: 3, top: 0  }}
-      role="presentation"
-      onClick={toggleDrawer(false)}
-      onKeyDown={toggleDrawer(false)}
+    <Box  sx={{ width: 250, top: 0  }}  role="presentation"  onClick={toggleDrawer(false)}  onKeyDown={toggleDrawer(false)}
     >
       <List>
         {navItems.map((item) => (
@@ -33,7 +30,7 @@ export default function Header() {
   );
 
   return (
-    <Box sx={{ display: 'flex', borderBottom: '10px solid #fffff'}}>
+    <Box sx={{ display: 'flex'}}>
       <CssBaseline />
       <AppBar component="nav">
         <Toolbar >
