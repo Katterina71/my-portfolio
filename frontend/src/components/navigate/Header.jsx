@@ -2,7 +2,7 @@ import React from 'react'
 import {Box, CssBaseline, AppBar, Toolbar, IconButton, Button, Link, List, ListItem, ListItemText, Drawer  } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 
-const navItems = ['ABOUT ME', 'SKILLS', 'PROJECTS', 'CONTACT'];
+const navItems = ['ABOUT ME', 'PROJECTS', 'CONTACT'];
 
 export default function Header() {
   const logoPath = 'logo.svg'    
