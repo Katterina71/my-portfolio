@@ -17,7 +17,7 @@ export default function Header() {
   };
 
   const drawer = (
-    <Box  sx={{ width: 250 }}
+    <Box  sx={{ width: 250, backgroundColor: '#1C2232', color: '#fff',  py: 3, top: 0  }}
       role="presentation"
       onClick={toggleDrawer(false)}
       onKeyDown={toggleDrawer(false)}
