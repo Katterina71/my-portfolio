@@ -8,8 +8,8 @@ const projects = [
     name: 'Celestial Canvas',
     description: 'A project demonstrating various equipment.',
     techIcons: [
-      { icon: <i className="fab fa-react"></i>, label: 'React' },
-      { icon: <i className="fab fa-node-js"></i>, label: 'Node.js' },
+      { icon: <i className="fab fa-js"></i>, label: 'Java Script' },
+      // { icon: <i className="fab fa-node-js"></i>, label: 'Node.js' },
     ],
     projectLink: 'https://example.com/demo-equipment',
     githubLink: 'https://github.com/example/demo-equipment',
@@ -19,8 +19,10 @@ const projects = [
     name: 'Fosters Connect',
     description: 'Project for outdoor advertising production.',
     techIcons: [
-      { icon: <i className="fab fa-angular"></i>, label: 'Angular' },
-      { icon: <i className="fab fa-python"></i>, label: 'Python' },
+      { icon: <i className="fab fa-database"></i>, label: 'MongoDB' },
+      { icon: <i className="fab"></i>, label: 'Express' },
+      { icon: <i className="fab fa-react"></i>, label: 'React' },
+      { icon: <i className="fab fa-node-js"></i>, label: 'Node.js' },
     ],
     projectLink: 'https://fosterconnect.onrender.com/',
     githubLink: 'https://github.com/Katterina71/FosterConnect',
@@ -30,8 +32,7 @@ const projects = [
     name: 'Marvel Characters App',
     description: 'Project for outdoor advertising production.',
     techIcons: [
-      { icon: <i className="fab fa-angular"></i>, label: 'Angular' },
-      { icon: <i className="fab fa-python"></i>, label: 'Python' },
+      { icon: <i className="fab fa-react"></i>, label: 'React' },
     ],
     projectLink: 'https://main--marvel-characters-vault.netlify.app/',
     githubLink: 'https://github.com/Katterina71/MarvelCharacterVault',
@@ -87,7 +88,7 @@ const projects = [
 const Projects = () => {
   return (
     <Container sx={{ py: 10 }}>
-      <Typography variant="h4" gutterBottom sx={{mb:4}}>
+      <Typography variant="h2" gutterBottom sx={{mb:4, fontSize: { xs: '2.5rem', sm: '2.5rem', md: '3.5rem' }}}>
         My projects
       </Typography>
       <Grid container spacing={4}>

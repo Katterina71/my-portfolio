@@ -12,6 +12,15 @@ const theme = createTheme({
       primary: '#FFFFFF', // Set primary text color to white
     },
   },
+  typography: {
+    body1: {
+      fontSize: '1.3rem', // Default size for body1 text (adjust as needed)
+    },
+    body2: {
+      fontSize: '0.875rem', // Default size for body2 text (adjust as needed)
+    },
+    
+  },
     components: {
       MuiAppBar: {
             styleOverrides: {

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, CssBaseline, AppBar, Toolbar, IconButton, Button, Link, List, ListItem, ListItemText, Drawer  } from '@mui/material'
+import {Box, CssBaseline, AppBar, Toolbar, IconButton, Button, Link, List, ListItem, ListItemText, Drawer, Container  } from '@mui/material'
 
 import MenuIcon from '@mui/icons-material/Menu'
 
@@ -32,7 +32,7 @@ export default function Header() {
 
   return (
     <Box sx={{ display: 'flex'}}>
-      <CssBaseline />
+     <Container>
       <AppBar component="nav">
         <Toolbar >
           <IconButton color="inherit" aria-label="open drawer" edge="start" sx={{ mr: 2, display: { sm: 'none' } }} onClick={toggleDrawer(true)}  >
@@ -55,7 +55,7 @@ export default function Header() {
       <Drawer anchor="left" open={drawerOpen} onClose={toggleDrawer(false)}>
         {drawer}
       </Drawer>
-
+      </Container>
     </Box>
   )
 }

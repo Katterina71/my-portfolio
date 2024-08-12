@@ -46,7 +46,7 @@ const Contact = () => {
                 }}
                 underline="hover"
               >
-                +1(646)972-04-08
+                Call me
               </Link>
             </Box>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
@@ -62,7 +62,7 @@ const Contact = () => {
                 }}
                 underline="hover"
               >
-                beviatori@gmail.com
+                Email me
               </Link>
             </Box>
           </Grid>

@@ -3,38 +3,63 @@ import { Container, Typography, Button, Box, Grid } from '@mui/material';
 
 const Hero = () => {
   return (
-    <Box sx={{ pt: 8, pb: 4, color: 'white', position: 'relative', height: '450px' }}>
-      <Box
-        component="img"
-        src="/accents/bubbles-one.png"
-        alt="Decorative bubbles"
-        sx={{
-          position: 'absolute',
-          top: '0',
-          right: '0',
-          width: '50%',
-          height: 'auto',
-          zIndex: 0,
-          opacity: 0.5,
-          pointerEvents: 'none'
-        }}
-      />
-      <Container>
-        <Grid container spacing={4} alignItems="center">
-          <Grid item xs={12} md={6}>
-            <Typography variant="h3" component="h1" gutterBottom sx={{ fontWeight: 'bold' }}>
-              Hello! I'm Katerina Iliushkina,
-              <br />
-              Software Engineer
+    <Box sx={{ mt: 4, pt: { xs: 6, md: 8 }, pb: 4, color: 'white', position: 'relative', height: { xs: 'auto', md: '450px' } }}>
+      <Container sx={{ height: '100%' }}>
+        <Grid container spacing={4} sx={{ height: '100%' }}>
+          <Grid
+            item
+            xs={12}
+            md={6}
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: { xs: 'center', md: 'flex-start' },
+              height: '100%',
+              textAlign: { xs: 'center', md: 'left' }, // Center text on mobile, left-align on larger screens
+            }}
+          >
+            <Typography
+              variant="h1"
+              gutterBottom
+              sx={{
+                fontWeight: 'bold',
+                mb: 2,
+                fontSize: { xs: '2.5rem', sm: '2.5rem', md: '4rem' }, // Responsive font sizes
+              }}
+            >
+              Hello! I'm Katerina,
+              <br />a Full-Stack <br />Software Engineer
             </Typography>
             <Button
               variant="contained"
-              sx={{ mt: 2, backgroundColor: '#FF077E', '&:hover': { backgroundColor: '#37FFF0' } }}>
+              sx={{
+                mt: 2,
+                backgroundColor: '#FF077E',
+                width: { xs: '100%', sm: '200px' }, // Full-width button on mobile
+                '&:hover': { backgroundColor: '#37FFF0' },
+              }}
+            >
               My portfolio
             </Button>
           </Grid>
-          <Grid item xs={12} md={6} sx={{ textAlign: 'right' }}>
-            <img src="/accents/arrows.png" alt="Decorative bubbles" style={{ width: '20%', height: 'auto', bottom: '0'  }} />
+          <Grid
+            item
+            xs={12}
+            md={6}
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              height: '100%',
+              mt: { xs: 4, md: 0 }, // Add margin on top on mobile to avoid overlap
+            }}
+          >
+            <img
+              src="/profile.jpg"
+              alt="Kate Iliushkina"
+              style={{ width: '100%', maxWidth: '350px', borderRadius: '8px' }} // Adjust image size for mobile
+            />
           </Grid>
         </Grid>
       </Container>

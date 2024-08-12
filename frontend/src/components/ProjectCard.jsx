@@ -9,7 +9,7 @@ const ProjectCard = ({ name, description, techIcons, projectLink, githubLink, gi
       <Grid container>
         <Grid item xs={12} md={6}>
           <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', p: 3 }}>
-            <Typography variant="h5" component="div" sx={{ fontWeight: 'bold', pb: 2 }}>
+            <Typography variant="h4" component="div" sx={{ fontWeight: 'bold', pb: 2 }}>
               {name}
             </Typography>
             <Typography variant="body1" sx={{ mb: 2 }}>
@@ -25,7 +25,7 @@ const ProjectCard = ({ name, description, techIcons, projectLink, githubLink, gi
                 variant="contained"
                 color="primary"
                 href={projectLink}
-                sx={{ mr: 2, backgroundColor: '#FF077E', '&:hover': { backgroundColor: '#37FFF0' } }}
+                sx={{ mr: 2, backgroundColor: '#FF077E', '&:hover': { backgroundColor: '#37FFF0' }, mb: { xs: 2, sm: 2 }}}
                 startIcon={<OpenInNew />}
               >
                 View Project
