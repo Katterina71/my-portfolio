@@ -33,13 +33,13 @@ const About = () => {
         About me
       </Typography>
       <Typography variant="body1" paragraph >
-        Welcome to my portfolio website!  I'm a Full-Stack Software Engineer with over 10 years of experience working with websites across various industries, including medical, finance, and e-commerce. My expertise lies in creating efficient, scalable solutions using modern technologies. I work with React, Node.js, Express, and MongoDB to develop dynamic, responsive web applications.
+        Welcome to my Portfolio Website!  I'm a Full-Stack Software Engineer with over 10 years of experience working with websites across various industries, including medical, finance, and e-commerce. My expertise lies in creating efficient, scalable solutions using modern technologies. I work with React, Node.js, Express, and MongoDB to develop dynamic, responsive web applications.
       </Typography>
       <Typography variant="body1" paragraph >
-        I also have a strong foundation in HTML, CSS, JavaScript, and RESTful APIs, which I use to create user-friendly interfaces and robust back-end systems. My goal is to build solutions that not only work seamlessly today but are also adaptable to the challenges of tomorrow.
+      My adaptability is a key strength that reassures potential clients or employers about my ability to handle future challenges. I also have a strong foundation in HTML, CSS, JavaScript, and RESTful APIs, which I use to create user-friendly interfaces and robust back-end systems. My goal is to build solutions that not only work seamlessly today but are also adaptable to tomorrow's challenges.
       </Typography>
       <Typography variant="body1" paragraph >
-        I’m skilled in optimizing websites for performance and SEO, ensuring they meet industry standards and provide a great user experience. I focus on writing clean, efficient code that is easy to maintain and scales well, ensuring that the applications I build perform reliably and meet business goals.
+      I’m skilled in optimizing websites for performance and SEO, ensuring they meet industry standards and provide a great user experience. I focus on writing clean, efficient code that is easy to maintain and scales well, ensuring that my applications perform reliably and meet business goals.
       </Typography>
       <Typography variant="body1" >
         If you're looking for a skilled engineer to bring your next project to life, let's connect and make it happen.

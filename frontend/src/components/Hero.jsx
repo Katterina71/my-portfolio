@@ -3,7 +3,7 @@ import { Container, Typography, Button, Box, Grid } from '@mui/material';
 
 const Hero = () => {
   return (
-    <Box sx={{ mt: 4, pt: { xs: 6, md: 8 }, pb: 4, color: 'white', position: 'relative', height: { xs: 'auto', md: '450px' } }}>
+    <Box sx={{ mt: 6, pt: { xs: 6, md: 8 }, pb: 4, color: 'white', position: 'relative', height: { xs: 'auto', md: '450px' } }}>
       <Container sx={{ height: '100%' }}>
         <Grid container spacing={4} sx={{ height: '100%' }}>
           <Grid

@@ -5,7 +5,7 @@ import { OpenInNew, GitHub } from '@mui/icons-material';
 
 const ProjectCard = ({ name, description, techIcons, projectLink, githubLink, gifSrc }) => {
   return (
-    <Card sx={{ display: 'flex', mb: 4, borderRadius: '8px', boxShadow: 3, backgroundColor: '#353D54'}}>
+    <Card sx={{ display: 'flex', mb: 4, borderRadius: '8px', boxShadow: 3, backgroundColor: '#353D54' }}>
       <Grid container>
         <Grid item xs={12} md={6}>
           <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', p: 3 }}>
@@ -25,7 +25,12 @@ const ProjectCard = ({ name, description, techIcons, projectLink, githubLink, gi
                 variant="contained"
                 color="primary"
                 href={projectLink}
-                sx={{ mr: 2, backgroundColor: '#FF077E', '&:hover': { backgroundColor: '#37FFF0' }, mb: { xs: 2, sm: 2 }}}
+                sx={{
+                  mr: 2,
+                  backgroundColor: '#FF077E',
+                  '&:hover': { backgroundColor: '#37FFF0' },
+                  mb: { xs: 2, md: 0 }, // Margin-bottom only on mobile, no margin on desktop
+                }}
                 startIcon={<OpenInNew />}
               >
                 View Project
