@@ -11,8 +11,8 @@ const About = () => {
         alt="Decorative bubbles"
         sx={{
           position: 'absolute',
-          top: '0',
-          left: '0',
+          top: '-300px',
+          left: '800px',
           width: { xs: '100%', sm: '50%' }, // 100% width on mobile, 50% on small screens and up
           height: 'auto',
           zIndex: 0,
@@ -21,13 +21,28 @@ const About = () => {
           display: { xs: 'none', sm: 'block' }, // Hide on extra-small screens
         }}
       />
-      <Typography variant="h2" gutterBottom sx={{ position: 'relative', zIndex: 1, fontSize: { xs: '2.5rem', sm: '2.5rem', md: '3.5rem' }}}>
+      <Typography
+        variant="h2"
+        gutterBottom
+        sx={{
+          position: 'relative',
+          zIndex: 1,
+          fontSize: { xs: '2.5rem', sm: '2.5rem', md: '3.5rem' },
+        }}
+      >
         About me
       </Typography>
-      <Typography variant="body1" sx={{ position: 'relative', zIndex: 1 }}>
-        I’ve been working with websites since 2010.
-        I have a great background in Internet marketing. I went through all the stages of becoming a professional, from SEO specialist 
-        to Product Manager. My extensive knowledge of the peculiarities of search engine behavior, user research behavior, working with various topics and types of sites allow me to create sites as effective tools for online sales.
+      <Typography variant="body1" paragraph >
+        Welcome to my portfolio website!  I'm a Full-Stack Software Engineer with over 10 years of experience working with websites across various industries, including medical, finance, and e-commerce. My expertise lies in creating efficient, scalable solutions using modern technologies. I work with React, Node.js, Express, and MongoDB to develop dynamic, responsive web applications.
+      </Typography>
+      <Typography variant="body1" paragraph >
+        I also have a strong foundation in HTML, CSS, JavaScript, and RESTful APIs, which I use to create user-friendly interfaces and robust back-end systems. My goal is to build solutions that not only work seamlessly today but are also adaptable to the challenges of tomorrow.
+      </Typography>
+      <Typography variant="body1" paragraph >
+        I’m skilled in optimizing websites for performance and SEO, ensuring they meet industry standards and provide a great user experience. I focus on writing clean, efficient code that is easy to maintain and scales well, ensuring that the applications I build perform reliably and meet business goals.
+      </Typography>
+      <Typography variant="body1" >
+        If you're looking for a skilled engineer to bring your next project to life, let's connect and make it happen.
       </Typography>
     </Container>
   );
