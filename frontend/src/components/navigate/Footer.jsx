@@ -59,9 +59,15 @@ export default function Footer() {
                 alignItems: 'center',
               }}
             >
-              <img src="linkedIn.svg" alt="LinkedIn" />
-              <img src="facebook.svg" alt="Facebook" />
-              <img src="github.svg" alt="Github" />
+              <Link href="https://www.linkedin.com/in/ekaterina-iliushkina/" target="_blank" rel="noopener noreferrer">
+                <img src="linkedIn.svg" alt="LinkedIn" style={{ width: '24px', height: '24px' }} />
+              </Link>
+              <Link href="https://www.facebook.com/katrin.ilyushkina" target="_blank" rel="noopener noreferrer">
+                <img src="facebook.svg" alt="Facebook" style={{ width: '24px', height: '24px' }} />
+              </Link>
+              <Link href="https://github.com/Katterina71" target="_blank" rel="noopener noreferrer">
+                <img src="github.svg" alt="Github" style={{ width: '24px', height: '24px' }} />
+              </Link>
             </Box>
           </Grid>
         </Grid>
