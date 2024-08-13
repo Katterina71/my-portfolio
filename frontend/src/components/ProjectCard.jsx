@@ -12,7 +12,7 @@ const ProjectCard = ({ name, description, techIcons, projectLink, githubLink, gi
             <Typography variant="h4" component="div" sx={{ fontWeight: 'bold', pb: 2 }}>
               {name}
             </Typography>
-            <Typography variant="body1" sx={{ mb: 2 }}>
+            <Typography variant="body2" sx={{ mb: 2 }}>
               {description}
             </Typography>
             <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mb: 2 }}>

@@ -3,7 +3,7 @@ import { Container, Typography, Box } from '@mui/material';
 
 const About = () => {
   return (
-    <Container sx={{ mt: 10, px: 4, py: 4, position: 'relative' }}>
+    <Container sx={{ mt: 20, mb: 16, px: 4, py: 4, position: 'relative' }}>
       {/* Bubbles image as background */}
       <Box
         component="img"
@@ -33,7 +33,7 @@ const About = () => {
         About me
       </Typography>
       <Typography variant="body1" paragraph >
-        Welcome to my Portfolio Website!  I'm a Full-Stack Software Engineer with over 10 years of experience working with websites across various industries, including medical, finance, and e-commerce. My expertise lies in creating efficient, scalable solutions using modern technologies. I work with React, Node.js, Express, and MongoDB to develop dynamic, responsive web applications.
+        I'm a Full-Stack Software Engineer with over 10 years of experience working with websites across various industries, including medical, finance, and e-commerce. My expertise lies in creating efficient, scalable solutions using modern technologies. I work with React, Node.js, Express, and MongoDB to develop dynamic, responsive web applications.
       </Typography>
       <Typography variant="body1" paragraph >
       My adaptability is a key strength that reassures potential clients or employers about my ability to handle future challenges. I also have a strong foundation in HTML, CSS, JavaScript, and RESTful APIs, which I use to create user-friendly interfaces and robust back-end systems. My goal is to build solutions that not only work seamlessly today but are also adaptable to tomorrow's challenges.
