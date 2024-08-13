@@ -56,7 +56,7 @@ const Hero = () => {
             }}
           >
             <img
-              src="profile.jpg"
+              src="/profile/profile.jpg"
               alt="Kate Iliushkina"
               style={{ width: '100%', maxWidth: '350px', borderRadius: '8px' }} // Adjust image size for mobile
             />
