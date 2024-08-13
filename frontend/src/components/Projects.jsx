@@ -101,6 +101,7 @@ const projects = [
 
 const Projects = () => {
   return (
+    <section id="projects">
     <Container sx={{ py: 10 }}>
       <Typography variant="h2" gutterBottom sx={{mb:4, fontSize: { xs: '2.5rem', sm: '2.5rem', md: '3.5rem' }}}>
         My projects
@@ -113,6 +114,7 @@ const Projects = () => {
         ))}
       </Grid>
     </Container>
+    </section>
   );
 };
 

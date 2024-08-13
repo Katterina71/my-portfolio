@@ -3,6 +3,7 @@ import { Container, Typography, Box } from '@mui/material';
 
 const About = () => {
   return (
+    <section id="about-me">
     <Container sx={{ mt: 20, mb: 16, px: 4, py: 4, position: 'relative' }}>
       {/* Bubbles image as background */}
       <Box
@@ -45,6 +46,7 @@ const About = () => {
         If you're looking for a skilled engineer to bring your next project to life, let's connect and make it happen.
       </Typography>
     </Container>
+    </section>
   );
 };
 
