@@ -33,6 +33,7 @@ const Hero = () => {
             </Typography>
             <Button
               variant="contained"
+              href = '#projects'
               sx={{
                 mt: 2,
                 backgroundColor: '#FF077E',
