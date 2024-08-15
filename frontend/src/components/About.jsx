@@ -1,10 +1,14 @@
 import React from 'react';
-import { Container, Typography, Box } from '@mui/material';
+import { Container, Typography, Box, Button } from '@mui/material';
+import GetAppIcon from '@mui/icons-material/GetApp';
+import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox';
+
+
 
 const About = () => {
   return (
     <section id="about-me">
-    <Container sx={{ mt: 20, mb: 16, px: 4, py: 4, position: 'relative' }}>
+    <Container sx={{ mt: 16, mb: 12, px: 4, py: 4, position: 'relative' }}>
       {/* Bubbles image as background */}
       <Box
         component="img"
@@ -45,6 +49,31 @@ const About = () => {
       <Typography variant="body1" >
         If you're looking for a skilled engineer to bring your next project to life, let's connect and make it happen.
       </Typography>
+      <Box sx={{mt:4}}>
+      <Button
+                variant="contained"
+                color="primary"
+                href='#contact'
+                sx={{
+                  mr: 2,
+                  backgroundColor: '#FF077E',
+                  '&:hover': { backgroundColor: '#37FFF0' },
+                  // mb: { xs: 2, md: 0 }, // Margin-bottom only on mobile, no margin on desktop
+                }}
+                startIcon={<ForwardToInboxIcon />}
+              >
+                Contact with me
+              </Button>
+      <Button
+                variant="outlined"
+                href="/resume/EKATERINA_ILIUSHKINA-Software_Engineer.pdf" // Link to the resume file in the public folder
+                download // This triggers the download of the file
+                sx={{ borderColor: '#FF077E', color: '#FF077E', '&:hover': { borderColor: '#37FFF0', color: '#37FFF0' } }}
+                startIcon={<GetAppIcon />}
+              >
+                My Resume
+              </Button>
+              </Box>
     </Container>
     </section>
   );
