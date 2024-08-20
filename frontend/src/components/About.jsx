@@ -38,7 +38,7 @@ const About = () => {
         About me
       </Typography>
       <Typography variant="body1" paragraph >
-        I'm a Full-Stack Software Engineer with over 10 years of experience working with websites across various industries, including medical, finance, and e-commerce. My expertise lies in creating efficient, scalable solutions using modern technologies. I work with React, Node.js, Express, and MongoDB to develop dynamic, responsive web applications.
+        I'm a Full-Stack Software Engineer with over 15 years of experience working with websites across various industries, including medical, finance, and e-commerce. My expertise lies in creating efficient, scalable solutions using modern technologies. I work with React, Node.js, Express, and MongoDB to develop dynamic, responsive web applications.
       </Typography>
       <Typography variant="body1" paragraph >
       My adaptability is a key strength that reassures potential clients or employers about my ability to handle future challenges. I have a strong foundation in HTML, CSS, JavaScript, and RESTful APIs, which I use to create user-friendly interfaces and robust back-end systems. I leverage modern libraries and frameworks like React, Material-UI, Tailwind CSS, and Bootstrap to build scalable, efficient, and visually appealing solutions. I am committed to continuous learning, always exploring new technologies and updating my skills to ensure that the solutions I create today are adaptable to tomorrow's challenges.
