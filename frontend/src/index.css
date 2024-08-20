@@ -1,6 +1,8 @@
 body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     background-color: #1C2232; 
+    overflow-x: hidden;
+    width:100%;
 }
 
 :root {
