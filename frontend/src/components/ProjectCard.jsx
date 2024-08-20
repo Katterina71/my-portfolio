@@ -21,20 +21,22 @@ const ProjectCard = ({ name, description, techIcons, projectLink, githubLink, gi
               ))}
             </Box>
             <Box>
-              <Button
-                variant="contained"
-                color="primary"
-                href={projectLink}
-                sx={{
-                  mr: 2,
-                  backgroundColor: '#FF077E',
-                  '&:hover': { backgroundColor: '#37FFF0' },
-                  mb: { xs: 2, md: 0 }, // Margin-bottom only on mobile, no margin on desktop
-                }}
-                startIcon={<OpenInNew />}
-              >
-                View Project
-              </Button>
+            {projectLink && (
+                <Button
+                  variant="contained"
+                  color="primary"
+                  href={projectLink}
+                  sx={{
+                    mr: 2,
+                    backgroundColor: '#FF077E',
+                    '&:hover': { backgroundColor: '#37FFF0' },
+                    mb: { xs: 2, md: 0 }, // Margin-bottom only on mobile, no margin on desktop
+                  }}
+                  startIcon={<OpenInNew />}
+                >
+                  View Project
+                </Button>
+              )}
               <Button
                 variant="outlined"
                 href={githubLink}

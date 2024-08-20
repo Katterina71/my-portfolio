@@ -100,7 +100,6 @@ const projects = [
       { icon: <i className="fab fa-github"></i>, label: 'GitHub' },
 
     ],
-    projectLink: 'https://katterina71.github.io/Fitness/',
     githubLink: 'https://github.com/Katterina71/Personal-Finance-Tracker',
     gifSrc: '/projects-img/finance-tracker.png',
   },
