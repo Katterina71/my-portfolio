@@ -12,6 +12,7 @@ const projects = [
       { icon: <i className="fab fa-bootstrap"></i>, label: 'Bootstrap' },
       { icon: <i className="fab"></i>, label: 'RESTful API' },
       { icon: <i className="fab"></i>, label: 'Fetch API' },
+      { icon: <i className="fab fa-github"></i>, label: 'GitHub' },
      
     ],
     projectLink: 'https://katterina71.github.io/Celestial-Canvas/',
@@ -32,6 +33,8 @@ const projects = [
       { icon: <i className="fab fa-react"></i>, label: 'React' },
       { icon: <i className=""></i>, label: 'MUI' },
       { icon: <i className="fab fa-code-merge"></i>, label: 'Firebase' },
+      { icon: <i className="fab fa-github"></i>, label: 'GitHub' },
+
  
    
     ],
@@ -47,7 +50,8 @@ const projects = [
       { icon: <i className="fab fa-js"></i>, label: 'JavaScript' },
       { icon: <i className="fab"></i>, label: 'RESTful API' },
       { icon: <i className="fab"></i>, label: 'Axios' },
-      { icon: <i className="fab"></i>, label: 'CSS' },
+      { icon: <i className="fab fa-css3-alt"></i>, label: 'CSS' },
+      { icon: <i className="fab fa-github"></i>, label: 'GitHub' },
     ],
     projectLink: 'https://main--marvel-characters-vault.netlify.app/',
     githubLink: 'https://github.com/Katterina71/MarvelCharacterVault',
@@ -58,8 +62,9 @@ const projects = [
     description: 'The Dune Portal Website is a comprehensive digital platform dedicated to the universe of Frank Herbert\'s Dune. This website was developed using HTML, CSS, and Bootstrap to ensure a responsive design that adapts to various devices. The portal provides detailed explorations of Dune’s books, movies, and the author, offering features like a dynamic content layout, user registration, and newsletter subscriptions. Key interactive elements include CSS animations for a "Spice Melange" glow effect and scalable media icons. The project’s primary goal was to deepen the understanding and application of web development technologies, focusing on creating a user-friendly and engaging experience.',
     techIcons: [
       { icon: <i className="fab fa-bootstrap"></i>, label: 'Bootstrap' },
-      { icon: <i className="fab"></i>, label: 'CSS' },
-      { icon: <i className="fab"></i>, label: 'HTML' },
+      { icon: <i className="fab fa-css3-alt"></i>, label: 'CSS' },
+      { icon: <i className="fab fa-html5"></i>, label: 'HTML' },
+      { icon: <i className="fab fa-github"></i>, label: 'GitHub' },
 
     ],
     projectLink: 'https://katterina71.github.io/Dune-Website/',
@@ -71,8 +76,12 @@ const projects = [
     description: 'The Fitness Routine Planner is a web-based application designed to help users organize and manage their weekly fitness activities. It leverages the Document Object Model (DOM) and Browser Object Model (BOM) to offer a dynamic user experience, enabling real-time interaction through DOM events. Users can input, view, and print their fitness schedules, with features like form validation and interactive interface enhancing usability. Developed using HTML5, CSS3, and JavaScript, this planner exemplifies event-driven programming and is aimed at providing a user-friendly tool for effective fitness management.',
     techIcons: [
       { icon: <i className="fab fa-js"></i>, label: 'JavaScript' },
+      { icon: <i className="fab fa-css3-alt"></i>, label: 'CSS' },
+      { icon: <i className="fab fa-html5"></i>, label: 'HTML' },
       { icon: <i className="fab"></i>, label: 'DOM' },
+      { icon: <i className="fab"></i>, label: 'BOM' },
       { icon: <i className="fab"></i>, label: 'OOP' },
+      { icon: <i className="fab fa-github"></i>, label: 'GitHub' },
     ],
     projectLink: 'https://katterina71.github.io/Fitness/',
     githubLink: 'https://github.com/Katterina71/Fitness',
@@ -85,8 +94,10 @@ const projects = [
       { icon: <i className="fab fa-js"></i>, label: 'JavaScript' },
       { icon: <i className="fab fa-node-js"></i>, label: 'Node.js' },
       { icon: <i className="fab fa-node-js"></i>, label: 'Express JS' },
+      { icon: <i className="fab"></i>, label: 'RESTful API' },
       { icon: <i className="fab"></i>, label: 'DOM' },
       { icon: <i className="fab"></i>, label: 'OOP' },
+      { icon: <i className="fab fa-github"></i>, label: 'GitHub' },
 
     ],
     projectLink: 'https://katterina71.github.io/Fitness/',
@@ -100,8 +111,11 @@ const projects = [
       { icon: <i className="fab fa-js"></i>, label: 'JavaScript' },
       { icon: <i className="fab fa-node-js"></i>, label: 'Node.js' },
       { icon: <i className="fab fa-node-js"></i>, label: 'Express JS' },
+      { icon: <i className="fab fa-css3-alt"></i>, label: 'CSS' },
+      { icon: <i className="fab fa-html5"></i>, label: 'HTML' },
       { icon: <i className="fab"></i>, label: 'DOM' },
       { icon: <i className="fab"></i>, label: 'OOP' },
+      { icon: <i className="fab fa-github"></i>, label: 'GitHub' },
    
     ],
     projectLink: 'https://htmlpreview.github.io/?https://github.com/Katterina71/Mystery-Room-Finder/blob/main/index.html',
