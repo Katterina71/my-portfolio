@@ -5,11 +5,11 @@ import { OpenInNew, GitHub } from '@mui/icons-material';
 
 const ProjectCard = ({ name, description, techIcons, projectLink, githubLink, gifSrc }) => {
   return (
-    <Card sx={{ display: 'flex', mb: 4, borderRadius: '8px', boxShadow: 3, backgroundColor: '#353D54' }}>
+    <Card sx={{ display: 'flex', mb: 1, borderRadius: '8px', boxShadow: 3, backgroundColor: '#353D54' }}>
       <Grid container>
         <Grid item xs={12} md={6}>
           <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', px: 3}}>
-            <Typography variant="h4" component="div" sx={{ fontWeight: 'bold', pt: 5, pb:4 }}>
+            <Typography variant="h4" component="div" sx={{ fontWeight: 'bold', pt: 2, pb:2 }}>
               {name}
             </Typography>
             <Typography variant="body2" sx={{ mb: 2 }}>
@@ -20,7 +20,7 @@ const ProjectCard = ({ name, description, techIcons, projectLink, githubLink, gi
                 <Chip key={index} icon={icon.icon} label={icon.label} />
               ))}
             </Box>
-            <Box sx={{pb:5}}>
+            <Box>
               <Button
                 variant="contained"
                 color="primary"

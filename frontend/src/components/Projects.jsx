@@ -22,16 +22,18 @@ const projects = [
     name: 'Fosters Connect',
     description: '"Fosters Connect" is a web-based platform designed to streamline the fostering process for animal shelters and potential foster caregivers using the MERN stack (MongoDB, Express.js, React, and Node.js). The site features a user-friendly interface created with Material-UI (MUI) and ensures secure user authentication through Firebase. It efficiently manages pet image uploads with Cloudinary and automates communications using SendGrid. The application aims to simplify foster care coordination, enhance animal welfare by reducing shelter overcrowding, and increase awareness and participation in foster care.',
     techIcons: [
+      { icon: <i className="fab fa-js"></i>, label: 'JavaScript' },
+      { icon: <i className="fab"></i>, label: 'NoSQL' },
       { icon: <i className="fa-light fa-database"></i>, label: 'MongoDB' },
       { icon: <i className="fa-light fa-database"></i>, label: 'Mongoose' },
       { icon: <i className="fa-light fa-code-branch"></i>, label: 'Express JS' },
-      { icon: <i className="fab fa-react"></i>, label: 'React' },
+      { icon: <i className="fab"></i>, label: 'RESTful API' },
       { icon: <i className="fab fa-node-js"></i>, label: 'Node.js' },
-      { icon: <i className="fab fa-js"></i>, label: 'JavaScript' },
+      { icon: <i className="fab fa-react"></i>, label: 'React' },
       { icon: <i className=""></i>, label: 'MUI' },
       { icon: <i className="fab fa-code-merge"></i>, label: 'Firebase' },
-      { icon: <i className="fab"></i>, label: 'RESTful API' },
-      { icon: <i className="fab"></i>, label: 'NoSQL' },
+ 
+   
     ],
     projectLink: 'https://fosterconnect.onrender.com/',
     githubLink: 'https://github.com/Katterina71/FosterConnect',
