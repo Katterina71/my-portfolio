@@ -8,7 +8,7 @@ import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox';
 const About = () => {
   return (
     <section id="about-me">
-    <Container sx={{ mt: 16, mb: 12, px: 4, py: 4, position: 'relative' }}>
+    <Container sx={{ mt: 16, mb: 2, px: 4, py: 4, position: 'relative' }}>
       {/* Bubbles image as background */}
       <Box
         component="img"
