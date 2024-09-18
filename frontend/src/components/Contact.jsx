@@ -80,13 +80,12 @@ const Contact = () => {
           }}
         >
           <Typography variant="h4" gutterBottom sx={{ mb: 4 }}>
-            Connect with me
+            Let’s chat! 
           </Typography>
           <Grid container spacing={4} sx={{ width: '100%' }}>
             <Grid item xs={12} md={6}>
               <Typography variant="body1" gutterBottom sx={{ mb: 4 }}>
-                I will be happy to answer your questions regarding my work. Contact me by phone or send a form indicating your email.
-                Thank you for looking at my portfolio!
+                I’ll be happy to answer any questions, feel free to leave a request, email or give me a call. 
               </Typography>
               <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
                 <Place sx={{ mr: 1 }} />
