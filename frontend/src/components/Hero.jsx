@@ -29,7 +29,7 @@ const Hero = () => {
               }}
             >
               Hello! I'm Katerina,
-              <br />a Full-Stack <br />Software Engineer
+              <br />a SEO Specialist <br /> and Web Developer
             </Typography>
             <Button
               variant="contained"
