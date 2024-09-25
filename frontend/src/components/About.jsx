@@ -38,16 +38,16 @@ const About = () => {
         About me
       </Typography>
       <Typography variant="body1" paragraph >
-        I'm a Full-Stack Software Engineer with over 10 years of experience working with websites across various industries, including medical, finance, and e-commerce. My expertise lies in creating efficient, scalable solutions using modern technologies. I work with React, Node.js, Express, and MongoDB to develop dynamic, responsive web applications.
+      I'm an SEO Specialist and Web Developer with over 10 years of experience across various industries, including medicine, finance, and e-commerce. My expertise blends SEO strategy, web development, and UX research, enabling me to create optimized, scalable websites that rank well and provide exceptional user experiences.
       </Typography>
       <Typography variant="body1" paragraph >
-      My adaptability is a key strength that reassures potential clients or employers about my ability to handle future challenges. I have a strong foundation in HTML, CSS, JavaScript, and RESTful APIs, which I use to create user-friendly interfaces and robust back-end systems. I leverage modern libraries and frameworks like React, Material-UI, Tailwind CSS, and Bootstrap to build scalable, efficient, and visually appealing solutions. I am committed to continuous learning, always exploring new technologies and updating my skills to ensure that the solutions I create today are adaptable to tomorrow's challenges.
+      With a strong foundation in HTML, CSS, JavaScript, and WordPress, I implement effective on-site optimization to ensure websites meet search engine standards and perform well for users. My skills in keyword research, content strategy, technical SEO, and UX research, combined with my development skills, allow me to improve website architecture, user experience, and performance.
       </Typography>
       <Typography variant="body1" paragraph >
-      I’m skilled in optimizing websites for performance and SEO, ensuring they meet industry standards and provide a great user experience. I focus on writing clean, efficient code that is easy to maintain and scales well, ensuring that my applications perform reliably and meet business goals.
+      I build visually appealing and fast-loading websites by leveraging tools like React, Material-UI, Tailwind CSS, and Bootstrap. My adaptability helps me stay current with SEO trends, UX research, and web technologies, ensuring that my solutions meet SEO and user needs.
       </Typography>
       <Typography variant="body1" >
-        If you're looking for a skilled engineer to bring your next project to life, let's connect and make it happen.
+      Let's connect if you want to optimize your website for search engines while enhancing user experience!
       </Typography>
       <Box sx={{mt:4}}>
       <Button
