@@ -25,11 +25,11 @@ const Hero = () => {
               sx={{
                 fontWeight: 'bold',
                 mb: 2,
-                fontSize: { xs: '2.5rem', sm: '2.5rem', md: '4rem' }, // Responsive font sizes
+                fontSize: { xs: '2.2rem', sm: '2.2rem', md: '3.5rem' }, // Responsive font sizes
               }}
             >
               Hello! I'm Katerina,
-              <br />a SEO Specialist <br /> and Web Developer
+              <br />a SEO Strategist <br /> and Web Developer
             </Typography>
             <Button
               variant="contained"

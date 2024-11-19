@@ -38,7 +38,7 @@ const About = () => {
         About me
       </Typography>
       <Typography variant="body1" paragraph >
-      I'm an SEO Specialist and Web Developer with over 10 years of experience across various industries, including medicine, finance, and e-commerce. My expertise blends SEO strategy, web development, and UX research, enabling me to create optimized, scalable websites that rank well and provide exceptional user experiences.
+      I'm an SEO Strategist and Web Developer with over 10 years of experience across various industries, including medicine, finance, and e-commerce. My expertise blends SEO strategy, web development, and UX research, enabling me to create optimized, scalable websites that rank well and provide exceptional user experiences.
       </Typography>
       <Typography variant="body1" paragraph >
       With a strong foundation in HTML, CSS, JavaScript, and WordPress, I implement effective on-site optimization to ensure websites meet search engine standards and perform well for users. My skills in keyword research, content strategy, technical SEO, and UX research, combined with my development skills, allow me to improve website architecture, user experience, and performance.
