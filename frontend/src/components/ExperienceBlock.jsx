@@ -27,7 +27,7 @@ const ExperienceBlock = () => {
   const isInView = useInView(ref, { once: true }); // Trigger animation only once
 
   return (
-    <Container sx={{ mt: 16}} ref={ref}>
+    <Container sx={{ mt: 20}} ref={ref}>
       <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         {data.map((experience, index) => (
           <Grid item xs={12} sm={6} md={3} key={index}>
@@ -49,7 +49,7 @@ const ExperienceBlock = () => {
                 <Typography variant="h5" sx={{ fontWeight: 'bold', mb: 1 }}>
                   {experience.years}
                 </Typography>
-                <Typography variant="body2">{experience.skills}</Typography>
+                <Typography variant="body2" sx={{fontSize:'16px'}}>{experience.skills}</Typography>
               </Box>
             </motion.div>
           </Grid>
